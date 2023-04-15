@@ -1,7 +1,12 @@
-.App {
+/* .App {
   text-align: center;
-}
+ 
+} */
 
+*{
+  background-color: black;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +17,47 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.text{
+  font-size: 54px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.green{
+color: green;
+}
+.red{
+  color: red;
+}
+button{
+  width: 226px;
+  height: 58px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+}
+.error{
+  /* border: 1px solid green; */
+  /* margin-left:410px; */
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 300px;
 
+}
+input{
+  height:40px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 5px;
+border: none;
+outline: none;
+border-bottom: 1px solid white;
+
+}
+.hi{
+margin-top: 120px;
+margin-left: 200px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
